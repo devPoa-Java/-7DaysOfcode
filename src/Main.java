@@ -11,7 +11,7 @@ public class Main {
 
 		HttpClient client = HttpClient.newHttpClient();
 		HttpRequest request = HttpRequest.newBuilder()
-				.uri(URI.create("https://imdb-api.com/en/API/Top250Movies/k_ckm07o4f"))
+				.uri(URI.create("https://imdb-api.com/en/API/Top250Movies/{APIKEY}"))
 				.GET()
 				.build();
 
