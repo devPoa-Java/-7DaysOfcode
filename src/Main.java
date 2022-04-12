@@ -13,11 +13,8 @@ public class Main {
 		
 		HttpClient client = HttpClient.newHttpClient();
 		HttpRequest request = HttpRequest.newBuilder()
-<<<<<<< HEAD
+
 				.uri(URI.create("https://imdb-api.com/en/API/Top250Movies/" + apiKey))
-=======
-				.uri(URI.create("https://imdb-api.com/en/API/Top250Movies/{APIKEY}"))
->>>>>>> ac075ef3f4bb8adf3c08067b43b3b51a6bf44f18
 				.GET()
 				.build();
 
